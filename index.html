@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="div-body">
+        <div id="to-do-text">To-Do List</div>
+        <label for="label-add" id="label-add">
+            <input id="input-add" type="text"
+                style="font-family: DejaVu Sans Mono, monospace; font-weight: 600; font-size: 14px;">
+            <div class="div-button-add">
+                <div class="div-button add">Add</div>
+                <div class="div-button sort">Sort</div>
+        </label>
+        <form for="main-edit-form" id="main-edit-form">
+            <div class="button-x close-edit">X</div>
+            <label for="edit">
+                <input id="main-edit" class="edit-input" type="text" name="task-edit" placeholder="Edit task" required autocomplete="off">
+            </label>
+            <div class="button-save">Save</div>
+        </form>
+    </div>
+    <div class="task-list">
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
